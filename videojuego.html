@@ -19,16 +19,15 @@
     }
 
     #game {
-      width: 400px;
-      height: 400px;
-      position: relative;
-      background-image: url('https://i.imgur.com/VLM3AYB.jpg');
-      background-size: cover;
-      border: 4px solid #fff;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-image: url('hola.jpg');
+  background-size: cover;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
     .box {
       width: 40px;
       height: 40px;
@@ -40,11 +39,11 @@
     }
 
     #player {
-      background-image: url('https://i.imgur.com/CkWZX3y.jpg');
+      background-image: url('https://lastfm.freetls.fastly.net/i/u/avatar170s/7058e76e827e7743cb65e1f0050043d6');
     }
 
     #target {
-      background-image: url('https://i.imgur.com/X7kC9aD.jpg');
+      background-image: url('https://lastfm.freetls.fastly.net/i/u/avatar170s/d70faf33a7ea0eeccbb858c107effbe8');
     }
 
     #score {
@@ -204,7 +203,6 @@
 
         updateScore();
 
-        // Mover target a nueva posición aleatoria
         targetX = Math.random() * 360;
         targetY = Math.random() * 360;
       }
